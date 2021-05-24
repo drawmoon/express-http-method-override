@@ -1,0 +1,39 @@
+{
+  "name": "express-http-method-override",
+  "version": "1.0.0",
+  "description": "A middleware for overriding the HTTP method of an incoming POST request.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint index.ts --fix",
+    "build": "rimraf dist/ && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drawmoon/express-http-method-override.git"
+  },
+  "keywords": [
+    "httpMethodOverride",
+    "nestjs"
+  ],
+  "author": "drsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drawmoon/express-http-method-override/issues"
+  },
+  "homepage": "https://github.com/drawmoon/express-http-method-override#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "express": "^4.17.1"
+  }
+}
